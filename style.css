@@ -1,3 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#randomDisplay {
+    position: relative;
+    bottom: -20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    height: 20px;
+    width: 800px;
+    padding: 20px 0;
+    margin: 20px 10px;
+    border-radius: 60px;
+    font-weight: bold;
+    border: 5px solid red;
+    color: black;
+    background: transparent;
+    overflow: hidden;
+    transform: translateX(70%)
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +33,6 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(B_Doordash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -31,7 +57,7 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -53,9 +79,9 @@
     width: 100%;
     position: absolute;
     top: 50%;
-    transform: translateY(-90%);
+    transform: translateY(-70%);
     text-align: center;
-    color: white;
+    color: black;
     font-size: 30x;
     margin-top: 80px;
 }
@@ -79,8 +105,8 @@ button{
     margin: 20px 10px;
     border-radius: 60px;
     font-weight: bold;
-    border: 5px solid white;
-    color: white;
+    border: 5px solid red;
+    color: black;
     cursor: pointer;
     background: transparent;
     position: relative;
